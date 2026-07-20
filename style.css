@@ -72,3 +72,17 @@
     font-style:italic;
 
 }
+
+.main {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.main:hover {
+  box-shadow: 0 0 30px 6px rgba(168, 85, 247, 0.4);
+  cursor: pointer;
+  transform: translateY(-8px);
+}
+
+.main button:active {
+  transform: scale(0.85);
+}
